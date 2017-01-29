@@ -1,0 +1,48 @@
+.screen-reader-text{
+  display: none;
+}
+
+/*
+==============
+Menu Drop-Down
+==============
+*/
+
+/*
+#accessibleNav  .site-nav--dropdown {
+  display: none;
+ // position: absolute;
+  //top: 3.6em;
+  background-color: #1A1617;
+}
+
+#accessibleNav  li:hover>.site-nav--dropdown{
+  display: block;
+!*  width: auto;
+  height: auto;*!
+ !* border: solid 1px #BBBBBB;*!
+  z-index: +1;
+}
+*/
+
+
+/*
+==============
+Contact Form
+==============
+*/
+
+textarea[name="comment"], textarea[name="message"] {
+  display: none;
+}
+
+/*
+=====================================================================
+aside class="sidebar grid__item one-quarter' display none madia 480px
+=====================================================================
+*/
+@media screen and (max-width: 320px) {
+  aside.sidebar.grid__item.one-quarter{
+    display: none;
+  }
+}
